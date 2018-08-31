@@ -29,12 +29,12 @@ div.jumbotron.text-center {
 }
 
 #title-chunk {
-  background-color: #5F5C5C;
+  background-color: #1B1B1B;
 }
 
-#article-title {
+#article-title, div.panel-footer {
   color: #FFD700;
-  background-color: #5F5C5C;
+  background-color: rgba(27, 27, 27, 0.9);
 }
 
 col-md-12#article-list {
@@ -50,11 +50,17 @@ div.panel-body {
   background-color: #5F5C5C;
 }
 
-div.panel-footer {
-  background-color: #5F5C5C;
+div.modal-footer {
+  background-color: #1B1B1B
 }
 
 #bottom {
+  background-color: #1B1B1B;
+}
+
+/* Sell Article Window Styling */
+#sell-article-heading {
+  color: #FFD700;
   background-color: #1B1B1B;
 }
 
@@ -71,5 +77,10 @@ div.panel-footer {
 
 /* Button styling*/
 #btn-top-left, #btn-top-right {
+  background-color: #FFD700;
+}
+
+#buy-btn, #sell-btn, #close-btn {
+  color: #1B1B1B;
   background-color: #FFD700;
 }
